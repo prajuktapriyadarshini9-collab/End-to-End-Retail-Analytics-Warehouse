@@ -1,0 +1,128 @@
+version: 2
+
+models:
+  - name: br_customers
+    description: "Bronze layer customer data standardized from RAW.CUSTOMERS."
+
+    columns:
+      - name: customer_id
+        description: "Primary identifier of the customer."
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_unique_id
+        description: "Business identifier shared across multiple customer records."
+        tests:
+          - not_null
+
+      - name: customer_city
+        description: "Customer city."
+
+      - name: customer_state
+        description: "Customer state."
+
+  - name: br_orders
+    description: "Bronze layer order data standardized from RAW.ORDERS."
+
+    columns:
+      - name: order_id
+        description: "Unique order identifier."
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        description: "Customer who placed the order."
+        tests:
+          - not_null
+
+      - name: order_status
+        description: "Current order status."
+
+  - name: br_order_items
+    description: "Bronze layer order item data standardized from RAW.ORDER_ITEMS."
+
+    columns:
+      - name: order_id
+        description: "Order identifier."
+        tests:
+          - not_null
+
+      - name: order_item_id
+        description: "Sequential item number within an order."
+        tests:
+          - not_null
+
+      - name: product_id
+        description: "Purchased product."
+        tests:
+          - not_null
+
+      - name: seller_id
+        description: "Seller fulfilling the order."
+        tests:
+          - not_null
+
+  - name: br_payments
+    description: "Bronze layer payment data standardized from RAW.PAYMENTS."
+
+    columns:
+      - name: order_id
+        description: "Associated order."
+        tests:
+          - not_null
+
+      - name: payment_sequential
+        description: "Payment sequence."
+
+      - name: payment_type
+        description: "Payment method."
+
+  - name: br_products
+    description: "Bronze layer product catalog standardized from RAW.PRODUCTS."
+
+    columns:
+      - name: product_id
+        description: "Unique product identifier."
+        tests:
+          - not_null
+          - unique
+
+      - name: product_category_name
+        description: "Product category."
+
+  - name: br_sellers
+    description: "Bronze layer seller data standardized from RAW.SELLERS."
+
+    columns:
+      - name: seller_id
+        description: "Unique seller identifier."
+        tests:
+          - not_null
+          - unique
+
+      - name: seller_city
+        description: "Seller city."
+
+      - name: seller_state
+        description: "Seller state."
+
+  - name: br_campaigns
+    description: "Bronze layer marketing campaign data standardized from RAW.CAMPAIGNS."
+
+    columns:
+      - name: campaign_id
+        description: "Unique campaign identifier."
+        tests:
+          - not_null
+          - unique
+
+      - name: campaign_name
+        description: "Marketing campaign name."
+
+      - name: platform
+        description: "Advertising platform."
+
+      - name: campaign_date
+        description: "Campaign execution date."
