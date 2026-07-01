@@ -1,0 +1,15 @@
+{
+    "rows": 112650,
+    "columns": 7,
+    "duplicate_rows": 0,
+    "null_counts": {
+        "ORDER_ID": 0,
+        "ORDER_ITEM_ID": 0,
+        "PRODUCT_ID": 0,
+        "SELLER_ID": 0,
+        "SHIPPING_LIMIT_DATE": 0,
+        "PRICE": 0,
+        "FREIGHT_VALUE": 0
+    },
+    "duplicate_primary_keys": 0
+}

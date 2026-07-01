@@ -1,0 +1,16 @@
+{
+    "rows": 99441,
+    "columns": 8,
+    "duplicate_rows": 0,
+    "null_counts": {
+        "ORDER_ID": 0,
+        "CUSTOMER_ID": 0,
+        "ORDER_STATUS": 0,
+        "ORDER_PURCHASE_TIMESTAMP": 0,
+        "ORDER_APPROVED_AT": 160,
+        "ORDER_DELIVERED_CARRIER_DATE": 1783,
+        "ORDER_DELIVERED_CUSTOMER_DATE": 2965,
+        "ORDER_ESTIMATED_DELIVERY_DATE": 0
+    },
+    "duplicate_primary_keys": 0
+}

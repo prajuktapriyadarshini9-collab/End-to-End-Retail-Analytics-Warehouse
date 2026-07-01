@@ -1,0 +1,13 @@
+{
+    "rows": 103886,
+    "columns": 5,
+    "duplicate_rows": 0,
+    "null_counts": {
+        "ORDER_ID": 0,
+        "PAYMENT_SEQUENTIAL": 0,
+        "PAYMENT_TYPE": 0,
+        "PAYMENT_INSTALLMENTS": 0,
+        "PAYMENT_VALUE": 0
+    },
+    "duplicate_primary_keys": 0
+}

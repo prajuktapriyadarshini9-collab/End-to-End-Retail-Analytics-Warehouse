@@ -1,0 +1,17 @@
+{
+    "rows": 32951,
+    "columns": 9,
+    "duplicate_rows": 0,
+    "null_counts": {
+        "PRODUCT_ID": 0,
+        "PRODUCT_CATEGORY_NAME": 610,
+        "PRODUCT_NAME_LENGHT": 610,
+        "PRODUCT_DESCRIPTION_LENGHT": 610,
+        "PRODUCT_PHOTOS_QTY": 610,
+        "PRODUCT_WEIGHT_G": 2,
+        "PRODUCT_LENGTH_CM": 2,
+        "PRODUCT_HEIGHT_CM": 2,
+        "PRODUCT_WIDTH_CM": 2
+    },
+    "duplicate_primary_keys": 0
+}

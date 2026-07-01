@@ -1,0 +1,13 @@
+{
+    "rows": 99441,
+    "columns": 5,
+    "duplicate_rows": 0,
+    "null_counts": {
+        "CUSTOMER_ID": 0,
+        "CUSTOMER_UNIQUE_ID": 0,
+        "CUSTOMER_ZIP_CODE_PREFIX": 0,
+        "CUSTOMER_CITY": 0,
+        "CUSTOMER_STATE": 0
+    },
+    "duplicate_primary_keys": 0
+}

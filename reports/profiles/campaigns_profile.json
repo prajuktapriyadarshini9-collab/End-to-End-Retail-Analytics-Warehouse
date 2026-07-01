@@ -1,0 +1,15 @@
+{
+    "rows": 4,
+    "columns": 7,
+    "duplicate_rows": 0,
+    "null_counts": {
+        "CAMPAIGN_ID": 0,
+        "CAMPAIGN_NAME": 0,
+        "PLATFORM": 0,
+        "CAMPAIGN_DATE": 0,
+        "SPEND": 0,
+        "CLICKS": 0,
+        "IMPRESSIONS": 0
+    },
+    "duplicate_primary_keys": 0
+}
