@@ -154,3 +154,15 @@ Dimension Tables:
 - Date
 
 A Star Schema is implemented for optimized analytical queries.
+
+## Phase 6 – Business Analytics
+
+Business metrics include:
+- Revenue
+- Orders
+- Customer Retention
+- Marketing ROI
+- Product Performance
+- Regional Sales
+- Delivery Performance
+  
