@@ -171,3 +171,21 @@ Business metrics include:
 Three interactive dashboard pages provide executive, marketing, and customer insights.
 
 ---
+
+# 📊 Dashboard Pages
+
+## 1️⃣ Executive Overview
+
+### Business Goal
+Provide executives with a high-level overview of business health, revenue growth, operational performance, and regional sales.
+
+### KPIs
+- Total Revenue
+- Total Orders
+- Average Order Value
+- Customer Acquisition Cost
+- Return on Ad Spend
+- Regional Revenue
+- Monthly Revenue Trend
+
+> 📷 Add screenshot:
