@@ -165,4 +165,9 @@ Business metrics include:
 - Product Performance
 - Regional Sales
 - Delivery Performance
-  
+
+## Phase 7 – Interactive Power BI Dashboard
+
+Three interactive dashboard pages provide executive, marketing, and customer insights.
+
+---
