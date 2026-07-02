@@ -285,3 +285,21 @@ DISTINCTCOUNT(FACT_ORDERS[CUSTOMER_ID]))
 ```
 
 ---
+
+# 📁 Repository Structure
+
+```text
+End-to-End-Retail-Analytics-Warehouse/
+│
+├── data/
+├── profiles/
+├── reports/
+│   └── RETAILANALYTICSDASHBOARD.pbix
+├── models/
+├── sql/
+├── images/
+├── README.md
+└── LICENSE
+```
+
+---
