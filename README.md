@@ -223,4 +223,30 @@ Analyze customer purchasing behavior and logistics performance.
 > 📷 Adding screenshot:
 > 
 <img width="1007" height="777" alt="image" src="https://github.com/user-attachments/assets/f23d2072-ba5c-42d8-b7a9-ccbb52ac9509" />
+---
 
+# 📈 Business KPIs
+
+## Sales
+- Total Revenue
+- Gross Order Volume
+- AOV
+- Monthly Revenue
+
+## Marketing
+- ROAS
+- CTR
+- CPC
+- CAC
+
+## Customer
+- CLV
+- Repeat Buyer Ratio
+- Customer Segmentation
+
+## Logistics
+- Delivery Time
+- SLA Tracking
+- Fulfillment Rate
+
+---
