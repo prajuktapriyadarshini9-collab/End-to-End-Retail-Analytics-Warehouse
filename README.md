@@ -60,3 +60,20 @@ This project addresses those challenges by building a scalable analytics warehou
 - Support data-driven decision making
 
 ---
+
+# 🛠 Technology Stack
+
+| Layer | Technology |
+|---|---|
+| Data Source | CSV Files |
+| Data Ingestion | Airbyte |
+| Data Warehouse | Snowflake |
+| Data Transformation | dbt Core |
+| Programming | Python |
+| Query Language | SQL |
+| Data Modeling | Star Schema |
+| Dashboard | Microsoft Power BI |
+| Version Control | Git |
+| Repository | GitHub |
+
+---
