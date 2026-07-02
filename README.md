@@ -13,3 +13,7 @@ Transforming raw retail transactions into an enterprise-ready analytics warehous
 ![dbt](https://img.shields.io/badge/dbt-Transformation-FF694B?logo=dbt)
 ![SQL](https://img.shields.io/badge/SQL-Analytics-blue)
 ![Git](https://img.shields.io/badge/Git-Version_Control-red?logo=git)
+
+</div>
+
+---
