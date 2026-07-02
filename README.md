@@ -207,3 +207,20 @@ Evaluate marketing campaigns and optimize advertising spend.
 > 📷 Adding screenshot:
 > <img width="995" height="756" alt="image" src="https://github.com/user-attachments/assets/4abd14ef-63b1-4d1d-9e02-90a111a237a4" />
 
+## 3️⃣ Customer Insights & Logistics
+
+### Business Goal
+Analyze customer purchasing behavior and logistics performance.
+
+### KPIs
+- Customer Lifetime Value
+- Average Order Value
+- Fulfillment Success Rate
+- Delivery SLA
+- Customer Satisfaction
+- Order Distribution
+
+> 📷 Adding screenshot:
+> 
+<img width="1007" height="777" alt="image" src="https://github.com/user-attachments/assets/f23d2072-ba5c-42d8-b7a9-ccbb52ac9509" />
+
