@@ -250,3 +250,38 @@ Analyze customer purchasing behavior and logistics performance.
 - Fulfillment Rate
 
 ---
+
+# ⚙ Advanced DAX
+
+```DAX
+Total Revenue =
+SUM(FACT_ORDERS[payment_value])
+```
+
+```DAX
+AOV =
+DIVIDE([Total Revenue],DISTINCTCOUNT(FACT_ORDERS[ORDER_ID]))
+```
+
+```DAX
+ROAS =
+DIVIDE([Revenue],[Ad Spend])
+```
+
+```DAX
+CAC =
+DIVIDE([Ad Spend],[New Customers])
+```
+
+```DAX
+Repeat Buyer Ratio =
+DIVIDE(
+CALCULATE(
+DISTINCTCOUNT(FACT_ORDERS[CUSTOMER_ID]),
+FILTER(
+VALUES(FACT_ORDERS[CUSTOMER_ID]),
+COUNT(FACT_ORDERS[ORDER_ID])>1)),
+DISTINCTCOUNT(FACT_ORDERS[CUSTOMER_ID]))
+```
+
+---
