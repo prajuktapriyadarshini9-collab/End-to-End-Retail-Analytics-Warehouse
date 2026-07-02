@@ -34,3 +34,16 @@ The pipeline covers every major stage of an analytics workflow:
 - Documentation & Version Control
 
 ---
+
+# 🎯 Business Problem
+
+Retail organizations generate large volumes of transactional data that are difficult to analyze directly. Raw datasets often contain duplicates, missing values, inconsistent formats, and fragmented information.
+
+This project addresses those challenges by building a scalable analytics warehouse that enables:
+- Executive decision-making
+- Marketing performance analysis
+- Customer behavior analysis
+- Logistics monitoring
+- Revenue reporting
+
+---
