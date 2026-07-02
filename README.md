@@ -47,3 +47,16 @@ This project addresses those challenges by building a scalable analytics warehou
 - Revenue reporting
 
 ---
+
+# 🎯 Business Objectives
+
+- Centralize retail datasets
+- Build a scalable warehouse
+- Clean and standardize raw data
+- Design a Star Schema
+- Develop reusable dbt models
+- Generate business KPIs
+- Deliver interactive Power BI dashboards
+- Support data-driven decision making
+
+---
