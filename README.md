@@ -17,3 +17,20 @@ Transforming raw retail transactions into an enterprise-ready analytics warehous
 </div>
 
 ---
+
+# 📖 Project Overview
+
+This project demonstrates a complete **end-to-end modern data engineering and business intelligence pipeline** built on the Brazilian Olist E-Commerce dataset. It follows industry-standard analytics engineering practices to transform raw transactional data into business-ready insights.
+
+The pipeline covers every major stage of an analytics workflow:
+
+- Data Collection
+- Data Ingestion
+- Data Warehousing
+- Data Transformation
+- Dimensional Modeling
+- Business Analytics
+- Executive Dashboards
+- Documentation & Version Control
+
+---
