@@ -77,3 +77,38 @@ This project addresses those challenges by building a scalable analytics warehou
 | Repository | GitHub |
 
 ---
+
+# 🏗 Solution Architecture
+
+```text
+CSV Files
+    │
+    ▼
+Airbyte Ingestion
+    │
+    ▼
+Snowflake Bronze Layer
+    │
+    ▼
+dbt Cleaning Models
+    │
+    ▼
+Snowflake Silver Layer
+    │
+    ▼
+dbt Business Models
+    │
+    ▼
+Snowflake Gold Layer
+    │
+    ▼
+Star Schema
+    │
+    ▼
+Power BI Dashboard
+    │
+    ▼
+Business Insights
+```
+
+---
