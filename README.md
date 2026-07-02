@@ -137,3 +137,20 @@ Transformation includes:
 - Data quality tests
 - Model documentation
 - Reusable SQL models
+  
+## Phase 5 – Dimensional Modeling
+
+Fact Table:
+- Fact Orders
+
+Dimension Tables:
+- Customers
+- Products
+- Sellers
+- Payments
+- Reviews
+- Categories
+- Campaigns
+- Date
+
+A Star Schema is implemented for optimized analytical queries.
