@@ -314,3 +314,59 @@ End-to-End-Retail-Analytics-Warehouse/
 - Marketing channel optimization
 
 ---
+# 💻 Installation
+
+```bash
+git clone https://github.com/prajuktapriyadarshini9-collab/End-to-End-Retail-Analytics-Warehouse.git
+```
+
+1. Configure Snowflake.
+2. Run Airbyte ingestion.
+3. Execute dbt models.
+4. Open `reports/RETAILANALYTICSDASHBOARD.pbix` in Power BI Desktop.
+5. Refresh the model.
+
+---
+
+# 🔮 Future Enhancements
+
+- Real-time streaming
+- Kafka integration
+- ML-based demand forecasting
+- Customer churn prediction
+- Power BI Service deployment
+- CI/CD automation
+- Azure/AWS deployment
+
+---
+
+# 👥 Contributors
+
+| Name | Contribution |
+|---|---|
+| Prajukta Priyadarshini | Data Engineering & Repository Management |
+| Krutika Dolly | Power BI Integration, GitHub Documentation |
+| Santosh | Data Engineering |
+| Bikash | SQL Engineering |
+| Subhasis | Data Engineering |
+
+---
+
+# 🙏 Acknowledgements
+
+- Olist Brazilian E-Commerce Dataset
+- Snowflake
+- dbt Labs
+- Airbyte
+- Microsoft Power BI
+- GitHub
+
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider giving the repository a ⭐.
+
+<div align="center">
+
+### ❤️ Turning Raw Data into Actionable Business Intelligence
