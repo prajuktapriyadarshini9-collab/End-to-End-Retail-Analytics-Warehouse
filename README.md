@@ -112,3 +112,28 @@ Business Insights
 ```
 
 ---
+
+# 🚀 Project Workflow
+
+## Phase 1 – Data Collection
+The project uses the Olist Brazilian E-Commerce dataset including Customers, Orders, Order Items, Products, Sellers, Reviews, Payments, Categories and Campaign data.
+
+## Phase 2 – Data Ingestion
+Raw CSV files are ingested through Airbyte into Snowflake. Logging and validation ensure reliable loading.
+
+## Phase 3 – Snowflake Data Warehouse
+The warehouse follows the Medallion Architecture:
+
+- 🥉 Bronze – Raw Data
+- 🥈 Silver – Cleaned & Standardized Data
+- 🥇 Gold – Analytics Ready Data
+
+## Phase 4 – Data Transformation (dbt)
+
+Transformation includes:
+- Null handling
+- Type casting
+- Deduplication
+- Data quality tests
+- Model documentation
+- Reusable SQL models
