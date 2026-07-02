@@ -188,4 +188,22 @@ Provide executives with a high-level overview of business health, revenue growth
 - Regional Revenue
 - Monthly Revenue Trend
 
-> 📷 Add screenshot:
+> 📷 Adding screenshot:
+> <img width="1006" height="715" alt="image" src="https://github.com/user-attachments/assets/6695bd04-707e-4902-86c5-baf5ef4edcef" />
+
+## 2️⃣ Campaign Analytics
+
+### Business Goal
+Evaluate marketing campaigns and optimize advertising spend.
+
+### KPIs
+- Total Clicks
+- CTR
+- CPC
+- Impressions
+- ROAS
+- Campaign Revenue
+
+> 📷 Adding screenshot:
+> <img width="995" height="756" alt="image" src="https://github.com/user-attachments/assets/4abd14ef-63b1-4d1d-9e02-90a111a237a4" />
+
